@@ -78,10 +78,10 @@ static NSString *borderType = @"borderType";
 #pragma mark Init
 
 /*
- Target: Create a ChipmunkSpace and put a Chipmunk circle object in it.
- 1. Create ChipmunkSpace.
- 2. Create Chipmunk circle object with ChipmunkBody and ChipmunkShape.
- 3. Create CPDebugLayer and the Chipmunk objects will be drawn.
+ Target: Set the ChipmunkSpace and put a Chipmunk circle object in it.
+ 1. Set ChipmunkSpace.
+ 2. Set Chipmunk circle object with ChipmunkBody and ChipmunkShape.
+ 3. Set CPDebugLayer and the Chipmunk objects will be drawn.
  4. Update the ChipmunkSpace step
  */
 
